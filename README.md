@@ -7,7 +7,7 @@
 git clone https://github.com/sairabbas/WasItRufus
 ```
 * Run the application with ```src/Main.java``` as the configuration (Tip: you can right-click the file and select RUN)
-* No additional packages or depencies required, only uses core Java modules
+* No additional packages or dependencies required, only uses core Java modules
 
 ## Screenshots
 Entered a valid local git directory
