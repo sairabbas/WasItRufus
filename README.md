@@ -2,7 +2,10 @@
 * This program prints specific facts about a local git repository
 
 ## SetUp/Run
-* Clone the repository with ```git clone https://github.com/sairabbas/WasItRufus```
+* Clone the repository with 
+```
+git clone https://github.com/sairabbas/WasItRufus
+```
 * Run the application with ```src/Main.java``` as the configuration (Tip: you can right-click the file and select RUN)
 * No extra packages or depencies required, only uses core Java modules
 
