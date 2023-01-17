@@ -15,20 +15,22 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
-        //Prompt for user input
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Example - C:\\Users\\JohnDoe\\Desktop\\Directory");
-        System.out.print("Enter local git directory: ");
-        String git_dir = scanner.nextLine();
-        File file = new File(git_dir);
-        //Validate user input
-        while(!file.exists()){
-            System.out.print("Invalid directory, please re-enter: ");
-            git_dir = scanner.nextLine();
-            file = new File(git_dir);
+        while(true){
+            //Prompt for user input
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Example - C:\\Users\\JohnDoe\\Desktop\\Directory");
+            System.out.print("Enter local git directory: ");
+            String git_dir = scanner.nextLine();
+            File file = new File(git_dir);
+            //Validate user input
+            while(!file.exists()){
+                System.out.print("Invalid directory, please re-enter: ");
+                git_dir = scanner.nextLine();
+                file = new File(git_dir);
+            }
+            //Assess the git directory
+            assessGitStatus(git_dir);
         }
-        //Assess the git directory
-        assessGitStatus(git_dir);
     }
     public static void assessGitStatus(String git_dir) throws IOException, InterruptedException {
         //Predefine git commands
@@ -57,7 +59,7 @@ public class Main {
             }
             else if(i == 3){
                 boolean blameRufus = line.equals("Rufus");
-                System.out.println(String.format("blame Rufus: %b", blameRufus));
+                System.out.println(String.format("blame Rufus: %b \n", blameRufus));
             }
             //Wait for process object to terminate
             proc.waitFor();
