@@ -15,10 +15,10 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException, InterruptedException {
+        System.out.println("Example Input - C:\\Users\\JohnDoe\\Desktop\\Directory");
         while(true){
             //Prompt for user input
             Scanner scanner = new Scanner(System.in);
-            System.out.println("Example - C:\\Users\\JohnDoe\\Desktop\\Directory");
             System.out.print("Enter local git directory: ");
             String git_dir = scanner.nextLine();
             File file = new File(git_dir);
