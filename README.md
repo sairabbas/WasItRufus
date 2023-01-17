@@ -1,4 +1,5 @@
 # Pronto.ai Take Home Assessment
+* This program prints specific facts about a local git repository
 
 ## SetUp/Run
 * Clone the repository with ```git clone https://github.com/sairabbas/WasItRufus```
@@ -9,7 +10,7 @@
 * git_dir: directory in which to assess git status
 
 ## Output
-* active branch (string)
-* whether repository files have been modified (boolean)
-* whether the current head commit was authored in the last week (boolean)
-* whether the current head commit was authored by Rufus (boolean)
+* Active branch (string)
+* Whether repository files have been modified (boolean)
+* Whether the current head commit was authored in the last week (boolean)
+* Whether the current head commit was authored by Rufus (boolean)
