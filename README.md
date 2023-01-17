@@ -1,7 +1,7 @@
 # Pronto.ai Take Home Assessment
 * This program prints specific facts about a local git repository
 
-## SetUp/Run
+## Set-Up/Run
 * Clone the repository with 
 ```
 git clone https://github.com/sairabbas/WasItRufus
