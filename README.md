@@ -17,3 +17,12 @@ git clone https://github.com/sairabbas/WasItRufus
 * Whether repository files have been modified (boolean)
 * Whether the current head commit was authored in the last week (boolean)
 * Whether the current head commit was authored by Rufus (boolean)
+
+## Screenshots
+Entered a valid local git directory
+
+![Screenshot1](ExampleImages/output1.png)
+
+Entered an invalid local git directory
+
+![Screenshot2](ExampleImages/output2.png)
