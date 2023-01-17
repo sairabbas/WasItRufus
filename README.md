@@ -1,6 +1,15 @@
-# WasItRufus
-Pronto.ai Take Home Assignment
+# Pronto.ai Take Home Assessment
 
-After cloning the repo, to run the application choose src/Main.java as the configuration (Tip: you can right-click the file and select RUN).
+## SetUp/Run
+* Clone the repository with ```git clone https://github.com/sairabbas/WasItRufus```
+* Run the application with src/Main.java as the configuration (Tip: you can right-click the file and select RUN)
+* No extra packages or depencies required, only uses core Java modules
 
-The application will prompt the user in the console to enter a valid local directory (there's user input validation), once entered it will display the following information in the console that the Take-Home Assignment requires. 
+## Input
+* git_dir: directory in which to assess git status
+
+## Output
+* active branch (string)
+* whether repository files have been modified (boolean)
+* whether the current head commit was authored in the last week (boolean)
+* whether the current head commit was authored by Rufus (boolean)
